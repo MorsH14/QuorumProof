@@ -112,7 +112,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Smoke-test coverage script
-        run: ./scripts/tests/test_coverage.sh
+        run: ./scripts/tests/regression_2000_coverage.sh
 
   frontend:
     runs-on: ubuntu-latest

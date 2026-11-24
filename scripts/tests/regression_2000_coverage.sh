@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
+# regression: #2000 — coverage.sh resolves the frontend from the project root.
 # Smoke-test coverage.sh against an isolated fixture project.
 #
-# Run with: ./scripts/tests/test_coverage.sh
+# Run with: ./scripts/tests/regression_2000_coverage.sh
 
 set -euo pipefail
 
